@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="revListHeight">138dp</dimen>
+    <dimen name="scrollHeight">181dp</dimen>
+    <dimen name="summarySize">16sp</dimen>
+    <dimen name="posterWidth">184dp</dimen>
+    <dimen name="posterHeight">248dp</dimen>
+    <dimen name="titleWidth">222dp</dimen>
+    <dimen name="titleHeight">67dp</dimen>
+    <dimen name="titleSize">18sp</dimen>
+    <dimen name="reviewsWidth">109dp</dimen>
+    <dimen name="reviewHeight">31dp</dimen>
+    <dimen name="reviewsSize">18sp</dimen>
+    <dimen name="infoWidth">224dp</dimen>
+    <dimen name="infoHeight">179dp</dimen>
+    <dimen name="splashWidth">383dp</dimen>
+    <dimen name="splashHeight">239dp</dimen>
+    <dimen name="splashText">16sp</dimen>
+</resources>
