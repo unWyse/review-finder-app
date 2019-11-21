@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cs255a.reviewapptest.InfoAndReviews">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.cs255a.reviewapptest.InfoAndReviews">
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/revListHeight"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="465dp"
+            android:layout_below="@+id/textView3"/>
+
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="@dimen/infoWidth"
+            android:layout_height="@dimen/infoHeight"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="68dp" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/scrollHeight"
+            android:layout_below="@+id/list2">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/scrollHeight"
+                android:layout_below="@+id/list2"
+                android:textSize="@dimen/summarySize"
+                android:text=""
+                android:textColor="@color/textColor"/>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/posterWidth"
+            android:layout_height="@dimen/posterHeight"
+            app:srcCompat="?android:attr/actionModeShareDrawable" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="@dimen/titleWidth"
+            android:layout_height="@dimen/titleHeight"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="1dp"
+            android:text=""
+            android:textAlignment="gravity"
+            android:textSize="@dimen/titleSize"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="@dimen/reviewsWidth"
+            android:layout_height="@dimen/reviewHeight"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="137dp"
+            android:text="@string/reviews"
+            android:textAlignment="gravity"
+            android:textSize="@dimen/reviewsSize"
+            android:textStyle="bold"
+            android:layout_below="@+id/scrollView"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

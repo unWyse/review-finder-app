@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MRRA</string>
+    <string name="search_hint">Search A Movie: Be Specific!</string>
+    <string name="reviews">Reviews</string>
+    <string name="splash">Welcome to our Movie Reviews &amp; Ratings Application.\nYou can use the search bar at the top of the screen. \nContinuous searches can be done without needing to return to this page.</string>
+</resources>
